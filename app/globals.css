@@ -20,7 +20,7 @@ html,
 body {
   font-family: "Gopher", serif;
   font-weight: 400;
-  -webkit-font-smoothing: anitaliased;
+  -webkit-font-smoothing: antialiased;
 }
 
 :root {
@@ -53,4 +53,32 @@ body {
 
 .slide-in {
   animation: slideIn 0.8s ease forwards;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  pointer-events: none;
+  transition: transform 140ms ease-in-out;
+}
+
+.header-inner{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 3.75vw;
+  padding-right: 3.75vw;
+  pointer-events: auto;
+  transition: padding 140ms ease-in-out;
+}
+
+.tweak-fixed-header .header{
+  transform: translateY(-100%);
+}
+
+.tweak-fixed-header .header-inner {
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
 }

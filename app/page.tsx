@@ -7,6 +7,8 @@ export default function Home() {
       <section className="min-h-screen bg-white">
         <Hero />
       </section>
+      <div style={{ height: "200vh" }} />
+
 
       {/* Services */}
       <section>
