@@ -1,18 +1,18 @@
 export default function About(){
   return (
     <section className="bg-[#e9e4dc]">
-      <div className="mx-auto max-w-400 px-[3.75vw] lg:pl-[2vw] lg:pr-[3.75vw] pt-35 pb-40">
-        <div className="grid grid-col-1 lg:grid-cols-[1.2fr_1fr] gap-[8vw] items-center mx-0">
+      <div className="mx-auto max-w-400 px-4 lg:px-12 pt-35 pb-40">
+        <div className="grid grid-col-1 lg:grid-cols-[1fr_1fr] gap-10 items-center mx-0">
           <div>
-            <div className="max-w-[60rem]">
+            <div className="min-w-[48rem]">
               <h2 className="font-medium text-[#223614] leading-[1.15] text-[clamp(2.75rem,3.5vw,4rem)]">
                 Hi, I&apos;m Lilac.
               </h2>
-              <p className="mt-6 text-[1.35rem] leading-[1.7] text-[#223614]">
+              <p className="mt-6 text-[1.25rem] leading-[1.7] text-[#223614]">
                 I&apos;m committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we&apos;ll work together to navigate the challenges life throws your way.
               </p>
               </div>
-              <div className="mt-10 flex justify-center items-center">
+              <div className="mt-35 flex justify-center">
                 <button className="border border-[#223614] px-6 py-3 text-sm tracking-wide transition-colors duration-300 hover:bg-[#223614] hover:text-white cursor-pointer">
                   LET&apos;S CHAT →
                 </button>
