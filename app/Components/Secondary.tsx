@@ -11,7 +11,7 @@ export default function Secondary() {
       ref={ref}
       className="relative bg-[#e9e5df] -mt-[13vh]"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] lg:h-[85vh]">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] lg:min-h-[85vh]">
         
         <div className="grid grid-rows-[1fr_auto]">
 
@@ -47,7 +47,7 @@ export default function Secondary() {
         </div>
 
         <Animated show={show} delay={180}>
-          <div className="relative h-[60vh] lg:h-full overflow-hidden">
+          <div className="relative h-[60vh] lg:min-h-full overflow-hidden">
             <Image
               src="/hero-2.jpg"
               alt=""

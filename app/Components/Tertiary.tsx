@@ -14,7 +14,7 @@ export default function Tertiary() {
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] lg:min-h-screen">
 
         <Animated show={show} delay={180}>
-            <div className="relative h-[60vh] lg:h-full overflow-hidden">
+            <div className="relative h-[60vh] lg:min-h-full overflow-hidden">
               <Image
                 src="/hero-3.jpg"
                 alt=""
