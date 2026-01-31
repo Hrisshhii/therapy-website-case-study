@@ -1,12 +1,11 @@
-import Hero from "./Components/Hero";
+import Primary from "./Components/Primary";
+import Secondary from "./Components/Secondary";
 
 export default function Home() {
   return (
     <main>
-      {/* Hero */}
-      <section className="min-h-screen bg-white">
-        <Hero />
-      </section>
+        <Primary />
+        <Secondary />
       <div style={{ height: "200vh" }} />
 
 

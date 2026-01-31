@@ -43,7 +43,7 @@ body {
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(25px);
   }
   to {
     opacity: 1;
@@ -81,4 +81,19 @@ body {
 .tweak-fixed-header .header-inner {
   padding-top: 0.6vw;
   padding-bottom: 0.6vw;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide {
+  animation: slideUp 0.8s ease forwards;
 }
