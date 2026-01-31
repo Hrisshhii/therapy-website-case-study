@@ -16,7 +16,7 @@ export default function Secondary() {
         <div className="grid grid-rows-[1fr_auto]">
 
           <div className="flex items-center justify-center pt-[4vh]">
-            <div className="max-w-[800px]">
+            <div className="max-w-200">
               <Animated show={show} delay={0}>
                 <h1 className="font-medium text-[#223614] leading-[1.15] text-[clamp(3rem,4vw,4.25rem)]">
                   Live a fulfilling life
