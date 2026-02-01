@@ -33,14 +33,12 @@ body {
 
 
 @theme inline {
-  /* Brand → Tailwind */
   --color-primary: var(--color-primary);
   --color-secondary: var(--color-secondary);
   --color-muted: var(--color-muted);
   --color-accent: var(--color-accent);
   --color-accent-soft: var(--color-accent-soft);
 
-  /* Semantic defaults */
   --color-background: var(--color-secondary);
   --color-foreground: var(--color-primary);
 }
@@ -114,13 +112,13 @@ body {
 
 @layer utilities {
   .heading-xl {
-    @apply font-medium text-[clamp(2.75rem,3.5vw,4rem)] leading-[1.15];
+    @apply font-medium text-[clamp(2.75rem,3.5vw,4rem)] leading-[1.15] sm:text-[clamp(2.75rem,3.5vw,4rem)];
   }
   .heading-lg {
-    @apply font-medium text-[clamp(2.25rem,4vw,4.1rem)] leading-[1.15];
+    @apply font-medium text-[clamp(2.25rem,4vw,4.1rem)] leading-[1.15] sm:text-[clamp(2.25rem,4vw,4.1rem)];
   }
   .heading-md {
-    @apply font-medium text-[clamp(1.75rem,2.5vw,3rem)] leading-[1.15];
+    @apply font-medium text-[clamp(1.75rem,2.5vw,3rem)] leading-[1.15] sm:text-[clamp(1.75rem,2.5vw,3rem)];
   }
   .body-lg {
     @apply text-[1.35rem] leading-[1.7];
