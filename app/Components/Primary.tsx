@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { useReveal } from "./hooks/useReveal";
 import Animated from "./hooks/Animated";
+import CTAButton from "./hooks/CTAbutton";
 
 export default function Primary(){
   const {ref,show}=useReveal(80);
@@ -29,9 +30,9 @@ export default function Primary(){
           </Animated>
           <Animated show={show} delay={320}>
             <div className="mt-8">
-              <button className="btn-primary">
+              <CTAButton className="btn-primary">
                 {`CONNECT WITH ME ->`}
-              </button>
+              </CTAButton>
             </div>
           </Animated>
           

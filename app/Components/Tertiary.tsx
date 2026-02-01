@@ -1,5 +1,6 @@
 "use client";
 import Animated from "./hooks/Animated";
+import CTAButton from "./hooks/CTAbutton";
 import { useReveal } from "./hooks/useReveal";
 import Image from "next/image";
 
@@ -70,9 +71,9 @@ export default function Tertiary() {
 
           <Animated show={show} delay={320}>
             <div className="border-t border-primary/50 mt-10 sm:mt-0">
-              <button className="w-full py-8 text-sm font-medium tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
+              <CTAButton className="w-full py-8 text-sm font-medium tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
                 WORK WITH ME
-              </button>
+              </CTAButton>
             </div>
           </Animated>
         </div>

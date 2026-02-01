@@ -1,6 +1,7 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 import Animated from "./hooks/Animated";
+import CTAButton from "./hooks/CTAbutton";
 import { useReveal } from "./hooks/useReveal";
 
 export default function About(){
@@ -24,9 +25,9 @@ export default function About(){
 
             <Animated show={show} delay={220}>
               <div className="-mb-5 mt-12 sm:mt-35 flex justify-center">
-                <button className="border border-primary px-6 py-3 text-sm tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
+                <CTAButton className="border border-primary px-6 py-3 text-sm tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
                   LET&apos;S CHAT →
-                </button>
+                </CTAButton>
               </div>
             </Animated>
           </div>

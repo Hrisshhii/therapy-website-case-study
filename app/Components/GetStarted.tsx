@@ -1,6 +1,7 @@
 "use client";
 
 import Animated from "./hooks/Animated";
+import CTAButton from "./hooks/CTAbutton";
 import { useReveal } from "./hooks/useReveal";
 
 export default function GetStarted(){
@@ -20,7 +21,7 @@ export default function GetStarted(){
           </p>
           <Animated show={show} delay={120}>
             <div className="mt-30">
-              <button className="btn-light">GET IN TOUCH →</button>
+              <CTAButton className="btn-light">GET IN TOUCH →</CTAButton>
             </div>
           </Animated>
         </div>

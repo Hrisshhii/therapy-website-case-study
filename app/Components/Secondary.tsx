@@ -1,5 +1,6 @@
 "use client";
 import Animated from "./hooks/Animated";
+import CTAButton from "./hooks/CTAbutton";
 import { useReveal } from "./hooks/useReveal";
 import Image from "next/image";
 
@@ -39,9 +40,9 @@ export default function Secondary() {
 
           <Animated show={show} delay={320}>
             <div className="border-t border-primary/40 mt-35 sm:mt-0">
-              <button className="w-full py-6 text-sm font-medium tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
+              <CTAButton className="w-full py-6 text-sm font-medium tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
                 GET IN TOUCH →
-              </button>
+              </CTAButton>
             </div>
           </Animated>
         </div>
