@@ -25,10 +25,10 @@ export default function FAQ(){
   return (
     <section className="bg-secondary" ref={ref}>
       <div className="mx-auto max-w-450 px-4 lg:px-12 pt-35 pb-40">
-        <div className="grid grid-col-1 lg:grid-cols-[1fr_1fr] gap-10 items-center mx-0">
-          <div className="relative flex justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10 items-center mx-0">
+          <div className="relative flex justify-center mb-10 sm:mb-0">
             <Animated show={show} delay={120}>
-              <div className="w-132.5 h-195 overflow-hidden rounded-t-full">
+              <div className="mx-auto w-[38%] max-w-[370px] sm:w-132.5 sm:max-w-none aspect-[2.8/5] sm:h-195 overflow-hidden rounded-t-full">
                 <img src="/faq.jpg" alt="" className="w-full h-full object-cover" />
               </div>
             </Animated>
@@ -36,7 +36,7 @@ export default function FAQ(){
           <div>
             <div className="min-w-3xl">
               <Animated show={show} delay={120}>
-                <h2 className="heading-xl text-primary mb-20">
+                <h2 className="heading-xl text-primary mb-8 sm:mb-20">
                   FAQs
                 </h2>
               </Animated>
@@ -50,9 +50,9 @@ export default function FAQ(){
                         <div key={i} className="border-b border-primary/40 my-0">
                           <button 
                             onClick={()=>setOpenIndex(isOpen?null:i)}
-                            className="w-full flex items-center py-4 text-left cursor-pointer"
+                            className="w-full flex items-center py-3 sm:py-4 text-left cursor-pointer"
                           >
-                            <span className="relative w-6 h-6 mr-2 flex items-center justify-center">
+                            <span className="relative w-5 h-5 sm:w-6 sm:h-6 mr-3 flex items-center justify-center">
                               <span className="absolute w-6 h-[1.5px] bg-primary" />
 
                               <span
@@ -63,14 +63,14 @@ export default function FAQ(){
                                 `}
                               />
                             </span>
-                            <span className="heading-md text-primary ml-2">{faq.question}</span>
+                            <span className="text-[1.25rem] sm:heading-md text-primary ml-2">{faq.question}</span>
                           </button>
                           <div
                             className={`overflow-hidden transition-all duration-500
                                 ${isOpen?"max-h-50 opacity-100":"max-h-0 opacity-0"}
                               `}
                           >
-                            <p className="pb-6 pr-[10%] text-[1.3rem] leading-[1.7] text-primary">{faq.answer}</p>
+                            <p className="pb-5 pr-0 sm:pr-[10%] text-[1.1rem] sm:text-[1.3rem] leading-[1.55] sm:leading-[1.7] text-primary">{faq.answer}</p>
                           </div>
                         </div>
                       </div>
