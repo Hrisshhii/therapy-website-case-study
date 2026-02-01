@@ -60,7 +60,7 @@ export default function Background(){
                               `}
                           >
                             <div className="flex justify-center">
-                              <p className="max-w-162.5 text-[1.3rem] leading-[1.7] text-primary px-4 pb-6">
+                              <p className="max-w-162.5 text-[1rem] sm:text-[1.3rem] leading-[1.7] text-primary px-4 pb-6">
                                 {ques.answer}
                               </p>
                             </div>

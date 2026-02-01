@@ -28,7 +28,7 @@ export default function FAQ(){
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10 items-center mx-0">
           <div className="relative flex justify-center mb-10 sm:mb-0">
             <Animated show={show} delay={120}>
-              <div className="mx-auto w-[38%] max-w-[370px] sm:w-132.5 sm:max-w-none aspect-[2.8/5] sm:h-195 overflow-hidden rounded-t-full">
+              <div className="mx-auto w-[38%] max-w-92.5 sm:w-132.5 sm:max-w-none aspect-[2.8/5] sm:h-195 overflow-hidden rounded-t-full">
                 <img src="/faq.jpg" alt="" className="w-full h-full object-cover" />
               </div>
             </Animated>
