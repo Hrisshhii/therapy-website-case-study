@@ -35,13 +35,13 @@ export default function Specialties(){
           My Specialties
         </h2>
 
-        <div className=" grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
+        <div className=" grid grid-cols-1 gap-6 sm:gap-5 sm:grid-cols-2 md:grid-cols-3">
           {specialties.map((item)=>(
-            <div key={item.title} className=" flex w-full h-full flex-col border border-primary bg-muted p-5 ">
+            <div key={item.title} className=" flex w-full h-full flex-col border border-primary bg-muted p-5 transition-transform duration-300 hover:-translate-y-1.5">
               <Animated show={show} delay={120}>
                 <h3 className="px-1 py-3 mt-0 body-md font-medium text-primary">{item.title}</h3>
               </Animated>
-              <p className="mt-2.5 text-[13.7px] leading-[1.6] text-primary max-w-132.25">{item.text}</p>
+              <p className="mt-2.5 text-[13.7px] leading-[1.6] text-primary sm:max-w-132.25">{item.text}</p>
               <Animated show={show} delay={320}>
                 <div className="mt-auto flex justify-center pt-10">
                   <div className="w-100 h-100 rounded-full overflow-hidden">
