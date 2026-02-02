@@ -1,6 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-
+import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { searchData } from "./searchData";
@@ -10,7 +10,7 @@ import { ImSpinner2 } from "react-icons/im";
 import Footer from "@/app/Components/Footer";
 
 
-export default function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get("q") || "";
   const router = useRouter();
@@ -106,4 +106,12 @@ export default function SearchPage() {
       <Footer />
     </section>
   );
+}
+
+export default function SearchPage(){
+  return (
+    <Suspense fallback={<div className="py-24 text-center">Loading searching...</div>}>
+      <SearchContent />
+    </Suspense>
+  )
 }
