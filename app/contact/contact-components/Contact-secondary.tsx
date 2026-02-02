@@ -25,7 +25,10 @@ export default function ContactSecondary(){
               <p className="mb-8 max-w-100 text-[0.8rem] sm:text-[1rem] leading-[1.6]">
                 If you&apos;re the owner, please log into your account to start a free trial or subscribe.
               </p>
-              <button className="bg-black text-white px-8 py-4 text-sm tracking-wide hover:opacity-80 transition cursor-pointer">GO TO ACCOUNT</button>
+              <a 
+              href="https://login.squarespace.com/api/1/login/oauth/provider/authorize?client_id=aHW16IlRwTPNctfSvoofuCarXfdJDvJK&state=L0tsWC9KZDcrbFU3R29TQTZuTzMxRU5KajJsampubW9IQS9EYkYrcmtVaz06eyJ1IjowLCJ4IjoxNzcwMzEzMjY2LCJuIjoiY2QxMzY1YjQifQ%3D%3D&redirect_uri=https%3A%2F%2Fsecure.acuityscheduling.com%2Foauth2%2Fsquarespace-standalone%2Fcallback&access_type=offline#/"
+              target="_blank"
+              className="bg-black text-white px-7 py-3.5 text-[0.75rem] tracking-wide hover:opacity-80 transition cursor-pointer mt-8">GO TO ACCOUNT</a>
             </div>
           </div>
         </Animated>

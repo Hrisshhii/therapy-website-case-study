@@ -11,7 +11,7 @@ export default function BlogPosts(){
     <section className="bg-muted text-primary py-32" ref={ref}>
       <div className="mx-auto max-w-450 section-x">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-23 gap-y-20">
-          {posts.map((post,i)=>(
+          {posts.map((post)=>(
             <article key={post.slug} className="group">
               <Animated show={show} delay={120} >
                 <a href={`/blog/${post.slug}`} className="block">

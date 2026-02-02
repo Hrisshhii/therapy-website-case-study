@@ -22,14 +22,14 @@ export default function BlogPostClient({ post, prev, next }: BlogProps){
   const { ref, show } = useReveal(80);
     return (
     <main>
-      <section className="bg-muted text-primary py-32" ref={ref}>
+      <section className="bg-muted text-primary border-b border-primary py-32" ref={ref}>
         <div className="mx-auto mx-w-[720px] section-x text-center">
           <p className="text-xs tracking-widest mb-6">{post.date}</p>
           <Animated show={show} delay={120}>
             <h1 className="font-medium text-primary leading-[1.12] text-[clamp(2.2rem,8vw,3rem)] sm:text-[calc(4.2vw+1rem)] mb-15">{post.title}</h1>
           </Animated>
         
-          <article className={`mx-auto text-center sm:text-left font-medium max-w-[900px] leading-[1.8] space-y-3 text-[1.2rem] fade-left ${show?"show":""}`}>
+          <article className={`mx-auto text-center sm:text-left font-medium max-w-225 leading-[1.8] space-y-3 text-[1.2rem] fade-left ${show?"show":""}`}>
             {post.content.map((para, i) => (
               <p key={i}>{para}</p>
             ))}
