@@ -41,6 +41,7 @@ export default function Header() {
   const pathname=usePathname();
   const isContact=pathname==="/contact";
   const isBlog=pathname==="/blog";
+  const isPost=pathname.startsWith("/blog/blog-post");
   const { ref, show } = useReveal(80);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -99,7 +100,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`header text-primary relative z-50 ${isContact ? "bg-accent-soft": "bg-secondary"}`}>
+      <header className={`header text-primary relative z-50 ${isContact ? "bg-accent-soft":isPost?"bg-muted":"bg-secondary"}`}>
         <div className="header-inner slide-in w-full">
           <div className={`${headerBar} md:flex-row flex-row-reverse`}>
             <Link
