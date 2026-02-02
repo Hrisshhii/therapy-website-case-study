@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         </ul>
         <p className="mt-6">
           You can return to our homepage by <Link href="/" className="underline">clicking here</Link>
-          , or you can try searching for the content you are seeking by <Link href="/search" className="underline">clicking here</Link> .
+          , or you can try searching for the content you are seeking by <Link href="/legal/search" className="underline">clicking here</Link> .
         </p>
       </div>
       <Footer />
