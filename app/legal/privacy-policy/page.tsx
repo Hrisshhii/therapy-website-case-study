@@ -1,7 +1,7 @@
 import Footer from "@/app/Components/Footer";
 import Link from "next/link";
 
-export default function PrivacyPolicy() {
+export default function TermsConditions(){
   return (
     <section className="bg-secondary text-primary py-32">
       <div className="mx-auto max-w-450 section-x body-md text-primary">
