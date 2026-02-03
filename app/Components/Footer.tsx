@@ -48,7 +48,7 @@ export default function Footer() {
                 <h4 className="font-medium text-[clamp(1.5rem,2vw,2.5rem)]">
                   Find
                 </h4>
-                <ul className="mt-2 space-y-3 text-[1.3rem] text-right">
+                <ul className="mt-2 space-y-3 text-[1.3rem] sm:text-right">
                   <li><Link href="/" className="underline">Home</Link></li>
                   <li><Link href="/contact" className="underline">Contact</Link></li>
                   <li><Link href="/blog" className="underline">Blog</Link></li>
