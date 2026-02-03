@@ -34,7 +34,7 @@ export default function FAQ(){
             </Animated>
           </div>
           <div>
-            <div className="min-w-3xl">
+            <div className="w-full min-w-0 lg:min-w-3xl">
               <Animated show={show} delay={120}>
                 <h2 className="heading-xl text-primary mb-8 sm:mb-20">
                   FAQs
