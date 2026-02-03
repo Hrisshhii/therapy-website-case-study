@@ -21,7 +21,7 @@ export default function GetStarted(){
           </p>
           <Animated show={show} delay={120}>
             <div className="mt-30">
-              <CTAButton className="btn-light">Connect With Me</CTAButton>
+              <CTAButton className="btn-light text-[1.05rem]">Connect With Me</CTAButton>
             </div>
           </Animated>
         </div>

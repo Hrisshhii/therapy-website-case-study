@@ -30,7 +30,7 @@ export default function Primary(){
           </Animated>
           <Animated show={show} delay={320}>
             <div className="mt-8">
-              <CTAButton className="btn-primary">
+              <CTAButton className="btn-primary text-[1rem]">
                 Start Your Therapy Journey
               </CTAButton>
             </div>

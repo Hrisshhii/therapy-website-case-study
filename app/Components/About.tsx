@@ -28,7 +28,7 @@ export default function About(){
 
             <Animated show={show} delay={220}>
               <div className="-mb-5 mt-12 sm:mt-35 flex justify-center">
-                <CTAButton className="border border-primary px-6 py-3 text-sm tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
+                <CTAButton className="border border-primary px-6 py-3 text-[1.1rem] tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
                   Schedule a Consultation
                 </CTAButton>
               </div>
