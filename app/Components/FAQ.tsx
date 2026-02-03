@@ -6,16 +6,23 @@ import { useReveal } from "./hooks/useReveal";
 
 const faqs = [
   {
-    question: "Do you take insurance?",
-    answer: "Yes, I accept select insurance plans. Please contact me to confirm whether your provider is accepted."
+    question: "Do you offer in-person or virtual therapy?",
+    answer: "I offer in-person therapy from my Santa Monica office as well as secure telehealth sessions for clients located throughout California. Together, we can choose the format that feels most comfortable and supportive for you."
   },
   {
-    question: "What are your rates?",
-    answer: "Session rates vary depending on the type and length of therapy. Reach out for current pricing details."
+    question: "What concerns do you typically help clients with?",
+    answer: "I primarily work with adults experiencing anxiety, trauma, chronic stress, panic, and professional burnout. Many of the people I support are high-achieving individuals who appear capable on the outside but feel internally overwhelmed, emotionally exhausted, or stuck in patterns that no longer serve them."
   },
   {
-    question: "Do you have any openings?",
-    answer: "Availability changes regularly. Please get in touch to learn about current openings."
+    question: "What is your approach to therapy?",
+    answer: "My approach is warm, collaborative and grounded in evidence-based practices such as cognitive-behavioral therapy (CBT), EMDR, mindfulness and body-oriented techniques. Sessions provide structure and support while allowing space for reflection, insight, and deeper emotional work."
+  },{
+    question:"What can I expect from our work together?",
+    answer:"Therapy is a space to slow down, gain clarity and reconnect with yourself. My goal is not only symptom relief but helping you build resilience, deepen self-understanding, and develop a stronger relationship with yourself over time."
+  },
+  {
+    question:"How do I get started?",
+    answer:"Getting started is simple. You can reach out to schedule a consultation where we’ll discuss your needs, answer any questions, and determine whether we’re a good fit. From there, we can begin building a path forward together."
   }
 ];
 
@@ -37,7 +44,7 @@ export default function FAQ(){
             <div className="w-full min-w-0 lg:min-w-3xl">
               <Animated show={show} delay={120}>
                 <h2 className="heading-xl text-primary mb-8 sm:mb-20">
-                  FAQs
+                  Questions You May Have
                 </h2>
               </Animated>
               

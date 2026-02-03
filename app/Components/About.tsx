@@ -14,19 +14,22 @@ export default function About(){
             <div className="px-6 sm:px-0 min-w-0 sm:min-w-3xl">
               <Animated show={show} delay={120}>
                 <h2 className="heading-xl text-primary">
-                  Hi, I&apos;m Lilac.
+                  Meet Dr. Maya Reynolds, PsyD
                 </h2>
               </Animated>
               
               <p className="mt-6 body-md leading-[1.55] sm:leading-[1.7] text-primary transition-all duration-500 ease-out">
-                I&apos;m committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we&apos;ll work together to navigate the challenges life throws your way.
+                Dr. Maya Reynolds is a licensed clinical psychologist based in Santa Monica, specializing in therapy for adults navigating anxiety, trauma and burnout. Her approach is warm, collaborative, and grounded in evidence-based methods, creating a space where clients feel supported while engaging in meaningful, depth-oriented work.
+              </p>
+              <p className="mt-6 body-md leading-[1.55] sm:leading-[1.7] text-primary transition-all duration-500 ease-out">
+                {`Whether you're feeling persistently overwhelmed, struggling with internal pressure, or processing past experiences, therapy can help you develop greater insight, resilience, and a more sustainable way of living.`}
               </p>
             </div>
 
             <Animated show={show} delay={220}>
               <div className="-mb-5 mt-12 sm:mt-35 flex justify-center">
                 <CTAButton className="border border-primary px-6 py-3 text-sm tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
-                  LET&apos;S CHAT →
+                  Schedule a Consultation
                 </CTAButton>
               </div>
             </Animated>

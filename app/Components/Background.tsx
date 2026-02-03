@@ -7,15 +7,15 @@ import { useReveal } from "./hooks/useReveal";
 const data = [
   {
     question: "Education",
-    answer: "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+    answer: "Dr. Maya Reynolds holds a Doctorate in Clinical Psychology (PsyD), with advanced training focused on evidence-based therapeutic care for adults experiencing anxiety, trauma, and chronic stress."
   },
   {
     question: "Licensure",
-    answer: "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+    answer: "Dr. Reynolds is a Licensed Clinical Psychologist practicing in Santa Monica, California and provides therapy both in-person and via secure telehealth for clients across the state."
   },
   {
-    question: "Certifications",
-    answer: "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+    question: "Clinical Approach & Methods",
+    answer: "Her work integrates evidence-based approaches including Cognitive Behavioral Therapy (CBT), EMDR, mindfulness-based practices, and body-oriented techniques to support meaningful, lasting change."
   }
 ];
 
@@ -27,8 +27,8 @@ export default function Background(){
         <div className="mx-auto text-center max-w-250 section-x py-35">
           <Animated show={show} delay={0}>
             <h2 className="font-medium text-[clamp(2.5rem,3vw,3.25rem)] text-primary mb-10">
-            My Professional Background
-          </h2>
+              Professional Credentials.
+            </h2>
           </Animated>  
           <div className="space-y-4 text-left">
             <div className="border-t border-primary/40">
