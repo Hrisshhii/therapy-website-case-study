@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 GrowMyTherapy – Frontend UI Clone Assignment
 
-## Getting Started
+This repository contains my solution for the **Frontend UI Accuracy Test**, where the goal was to closely replicate a given homepage design with high visual fidelity, responsiveness, and clean styling.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project has been deployed on **both platforms** for easy access and comparison:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Netlify (Primary):**  
+  🔗 https://growmytherapyhrishi.netlify.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Vercel (Alternate):**  
+  🔗 https://growmytherapy-assignment.vercel.app/
 
-## Learn More
+> Both deployments are static builds and reflect the same codebase.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Assignment Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Part 1: Clone the Homepage (UI Accuracy Test)**
 
-## Deploy on Vercel
+**Goal:**  
+Demonstrate frontend development skills by accurately recreating a provided homepage design.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Reference Website:**  
+🔗 http://lilac-template.squarespace.com/  
+🔐 Password: `lilac`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✅ What Was Required
+
+- Recreate the **layout, spacing, structure, and hierarchy**
+- Match **section order, grids, and visual rhythm**
+- Ensure **full responsiveness** (desktop, tablet, mobile)
+- Use **consistent typography, colors, and spacing**
+- Maintain clean, reusable styling practices
+
+---
+
+## ✅ Completion Checklist
+
+- [x] Homepage layout and structure closely match the original design  
+- [x] Fully responsive across desktop, tablet, and mobile devices  
+- [x] Typography, fonts, and visual styling match the reference  
+- [x] Reusable colors and theme variables used for maintainability  
+- [x] Consistent spacing, padding, and margins throughout the UI  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js (App Router)**
+- **Tailwind CSS**
+- **Custom CSS variables & utility classes**
+- **Static Site Export**
+
+---
+
+## 📦 Deployment Notes
+
+- The project is built using `next build` with static export
+- No backend or server-side logic is used
+- Optimized for performance and visual accuracy
+- Fully compatible with modern browsers
+
+---
+
+## 🧠 Final Notes
+
+This assignment was completed with a strong focus on:
+- **Pixel-accurate UI replication**
+- **Responsive design best practices**
+- **Clean, maintainable styling**
+- **Production-ready deployment**
+
+Thank you for reviewing my submission 🙌  
+I’m happy to walk through the implementation or design decisions if needed.
