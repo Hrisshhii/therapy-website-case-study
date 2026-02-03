@@ -1,0 +1,7 @@
+[build]
+command = "npm run build"
+publish = "out"
+
+[build.environment]
+NETLIFY_NEXT_PLUGIN_DISABLED = "true"
+NODE_VERSION = "20"
