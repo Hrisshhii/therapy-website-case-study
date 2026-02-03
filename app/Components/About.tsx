@@ -39,7 +39,7 @@ export default function About(){
               </div>
             </Animated>
             <Animated show={show} delay={220}>
-              <div className="absolute -bottom-8 right-2 sm:-bottom-20 sm:-right-20 w-30 h-30 sm:w-95 sm:h-95 rounded-full overflow-hidden">
+              <div className="absolute -bottom-8 -right-4 sm:-bottom-20 sm:-right-20 w-30 h-30 sm:w-95 sm:h-95 rounded-full overflow-hidden">
                 <img src="/about-circle.jpg" alt="" className="w-full h-full object-cover"/>
               </div>
             </Animated>
