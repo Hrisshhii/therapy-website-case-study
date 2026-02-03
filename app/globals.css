@@ -26,13 +26,12 @@ body {
 }
 
 :root {
-  --color-primary: #223614;
-  --color-secondary: #fbf7f2;
-  --color-muted: #e9e4dc;
-  --color-accent: #7b7a43;
-  --color-accent-soft: #c1beca;
+  --color-primary:#0e1838;
+  --color-secondary: #F7F9FC;
+  --color-muted:#E6EAF2;
+  --color-accent:#2F3E63;
+  --color-accent-soft:#d1dde9;
 }
-
 
 @theme inline {
   --color-primary: var(--color-primary);
@@ -47,8 +46,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0F172A;
+    --foreground: #F2F7FF;
   }
 }
 

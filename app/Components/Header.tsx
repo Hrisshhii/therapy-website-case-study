@@ -107,7 +107,7 @@ export default function Header() {
               href="/"
               className="font-medium leading-tight text-[calc((2-1)*1.2vw+1rem)] text-primary"
             >
-              Lilac Template
+              Dr. Maya Reynolds, PsyD
             </Link>
 
             <nav className="hidden md:flex gap-12 leading-tight text-primary text-[calc((1.2-1)*1.2vw+1rem)]">
