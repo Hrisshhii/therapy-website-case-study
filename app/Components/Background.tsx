@@ -27,7 +27,7 @@ export default function Background(){
         <div className="mx-auto text-center max-w-250 section-x py-35">
           <Animated show={show} delay={0}>
             <h2 className="font-medium text-[clamp(2.5rem,3vw,3.25rem)] text-primary mb-10">
-              Professional Credentials.
+              Professional Credentials
             </h2>
           </Animated>  
           <div className="space-y-4 text-left">
