@@ -4,53 +4,60 @@ export type SearchItem = {
   href: string;
   type: "page" | "blog";
   image?: string;
+  keywords?:string[];
 };
 
 export const searchData: SearchItem[] = [
   {
     title: "Home",
-    excerpt: "Welcome to the Lilac Template homepage..........",
+    excerpt: "Therapy for anxiety, trauma, burnout, and emotional overwhelm in Santa Monica.....",
+    keywords: ["home","homepage","base"],
     href: "/",
     type: "page",
   },
   {
     title: "Contact",
-    excerpt: "Contact... Contact me to book your first session...........",
+    excerpt: "Reach out to schedule a consultation or ask questions about working together.",
+    keywords:["maya","dr maya","contact","address"],
     href: "/contact",
     type: "page",
   },
   {
     title: "Blog",
-    excerpt:
-      "Blog... My tiny corner of the internet where I talk about healing............",
+    excerpt:"Thoughtful reflections and practical insights on anxiety, healing, and emotional wellbeing.",
+    keywords:["posts","social","writings"],
     href: "/blog",
     type: "page",
   },
 
   {
-    title: "Blog Post One",
-    excerpt: "Blog Post One ...",
+    title: "When Anxiety Doesn’t Look Like Anxiety",
+    excerpt: "Explore the quieter forms of anxiety that often go unnoticed — including perfectionism, overthinking, and chronic tension.",
+    keywords:["anxiety","overthinking","tension"],
     href: "/blog/blog-post-one",
     image:"/hero-2.jpg",
     type: "blog",
   },
   {
-    title: "Blog Post Two",
-    excerpt: "Blog Post Two ...",
+    title: "Understanding Burnout Before It Consumes You",
+    excerpt: "Learn to recognize the early signs of burnout and how therapy can help restore balance.",
+    keywords:["burnout", "stress", "work stress", "exhaustion"],
     href: "/blog/blog-post-two",
     image:"/hero-3.jpg",
     type: "blog",
   },
   {
-    title: "Blog Post Three",
-    excerpt: "Blog Post Four ...",
-    href: "/blog/blog-post-four",
+    title: "When Functioning Isn’t the Same as Thriving",
+    excerpt: "You may be managing life successfully on the outside while feeling depleted within — here’s why that matters.",
+    keywords:["work stress","exhaustion"],
+    href: "/blog/blog-post-three",
     image: "/about-circle.jpg",
     type: "blog",
   },
   {
-    title: "Blog Post Four",
-    excerpt: "Blog Post Four ...",
+    title: "Learning to Feel Safe Again",
+    excerpt: "Understand how therapy supports nervous system regulation and helps rebuild a lasting sense of safety.",
+    keywords:["trauma","past","fear","safety"],
     href: "/blog/blog-post-four",
     image:"/about-main.jpg",
     type: "blog",

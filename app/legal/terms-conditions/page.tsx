@@ -5,10 +5,12 @@ export default function TermsConditions(){
   return (
     <section className="bg-secondary text-primary py-32">
       <div className="mx-auto max-w-450 section-x body-md text-primary">
-        <p>We couldn&apos;t find the page you were looking for. This is either because:</p>
+        <p>By accessing this website, you agree to use it for informational purposes only.</p>
         <ul className="list-disc pl-6 my-4">
-          <li className="ml-10">There is an error in the URL entered into your web browser. Please check the URL and try again.</li>
-          <li className="ml-10">The page you are looking for has been moved or deleted.</li>
+          <li className="ml-10">The content provided is not intended to replace professional psychological, medical, or legal advice.</li>
+          <li className="ml-10">Viewing this website or contacting the practice does not establish a therapist-client relationship.</li>
+          <li className="ml-10">All website content — including text, branding, and design — is the property of this practice and may not be reproduced without permission.</li>
+          <li className="ml-10">We reserve the right to update website content at any time without notice.</li>
         </ul>
         <p className="mt-6">
           You can return to our homepage by <Link href="/" className="underline">clicking here</Link>
