@@ -13,7 +13,7 @@ export default function Primary(){
 
         <Animated show={show} delay={0}>
           <div className="relative mx-auto w-[70%] sm:w-[58%] lg:w-full aspect-[2.8/4] overflow-hidden rounded-t-[999px] lg:transform lg:-translate-x-[5vw]">
-            <img src="/hero-1.jpg" alt="" className="w-full h-full object-cover object-contain"/>
+            <img src="/hero.jpg" alt="" className="w-full h-full object-cover object-contain"/>
           </div>
         </Animated>
 

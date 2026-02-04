@@ -49,7 +49,7 @@ export default function Secondary() {
         <Animated show={show} delay={180}>
           <div className="relative order-first lg:order-0 h-[32vh] sm:h-[45vh] lg:min-h-full overflow-hidden">
             <Image
-              src="/hero-2.jpg"
+              src="/image2.jpg"
               alt=""
               fill
               className="object-cover"
