@@ -14,17 +14,17 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row gap-y-16">
 
             <div>
-              <h3 className="font-medium text-[clamp(2.5rem,3vw,3.25rem)] text-primary">
+              <h3 className="font-medium text-[clamp(1.75rem,2.2vw,2.5rem)] lg:text-[clamp(2.5rem,3vw,3.25rem)] text-primary">
                 Dr. Maya Reynolds, PsyD
               </h3>
-              <p>Licensed Clinical Psychologist</p>
+              <p className="text-[0.85rem] sm:text-[1.1rem]">Licensed Clinical Psychologist</p>
 
-              <p className="mt-3 sm:mt-4 text-[1.3rem]">
+              <p className="mt-3 sm:mt-4 text-[1.12rem] sm:text-[1.3rem]">
                 123th Street 45 W<br/>
                 Santa Monica, CA 90401
               </p>
 
-              <div className="mt-6 space-y-2 text-[1.3rem]">
+              <div className="mt-6 space-y-2 text-[1.12rem] sm:text-[1.3rem]">
                 <a href="mailto:email@example.com" className="underline block">
                   drmayareynolds@example.com
                 </a>
@@ -34,22 +34,22 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-y-12 sm:gap-x-24 lg:gap-x-40 sm:ml-auto">
+            <div className="flex flex-col sm:flex-row gap-y-10 sm:gap-x-24 lg:gap-x-40 sm:ml-auto text-primary">
               <div>
-                <h4 className="font-medium text-[clamp(1.5rem,2vw,2.5rem)] text-primary">
+                <h4 className="font-medium text-[clamp(1.35rem,1.8vw,2.25rem)] lg:text-[clamp(1.8rem,2.2vw,2.5rem)]">
                   Hours
                 </h4>
-                <p className="mt-2 text-[1.3rem] leading-[1.7]">
+                <p className="mt-1 sm:mt-2 text-[0.95rem] leading-[1.45] sm:text-[1.3rem] sm:leading-[1.7]">
                   Monday-Friday <br />
                   10am - 6pm
                 </p>
               </div>
               
               <div>
-                <h4 className="font-medium text-[clamp(1.5rem,2vw,2.5rem)]">
+                <h4 className="font-medium text-[clamp(1.35rem,1.8vw,2.25rem)] lg:text-[clamp(1.8rem,2.2vw,2.5rem)]">
                   Find
                 </h4>
-                <ul className="mt-2 space-y-3 text-[1.3rem] sm:text-right">
+                <ul className="mt-1 sm:mt-2 space-y-3 text-[0.95rem] leading-[1.45] sm:text-[1.3rem] sm:leading-[1.7] sm:text-right">
                   <li><Link href="/" className="underline">Home</Link></li>
                   <li><Link href="/contact" className="underline">Contact</Link></li>
                   <li><Link href="/blog" className="underline">Blog</Link></li>

@@ -40,7 +40,7 @@ export default function Tertiary() {
               <p className="mt-4 body-lg text-primary">
                 {`You may recognize parts of yourself in some of these experiences:`}
               </p>
-              <ul className="mt-5 mb-6 pl-4 space-y-2 text-[1.35rem] leading-[1.45] text-primary">
+              <ul className="mt-5 mb-6 pl-4 space-y-2 body-md leading-[1.45] text-primary">
                 {[
                   "Constant overthinking that makes it difficult to fully relax",
                   "Holding yourself to high standards while quietly feeling exhausted",
