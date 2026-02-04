@@ -35,19 +35,19 @@ export default function FAQ(){
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10 items-center mx-0">
           <div className="relative flex justify-center mb-10 sm:mb-0">
             <Animated show={show} delay={120}>
-              <div className="mx-auto w-[38%] max-w-92.5 sm:w-132.5 sm:max-w-none aspect-[2.8/5] sm:h-195 overflow-hidden rounded-t-full">
+              <div className="mx-auto w-[38%] sm:w-full aspect-[2.8/5] sm:h-120 lg:h-205 overflow-hidden rounded-t-full">
                 <img src="/faq.jpg" alt="" className="w-full h-full object-cover" />
               </div>
             </Animated>
           </div>
           <div>
-            <div className="w-full min-w-0 lg:min-w-3xl">
+            <div className="w-full min-w-0 lg:min-w-none">
               <Animated show={show} delay={120}>
                 <h2 className="heading-xl text-primary mb-8 sm:mb-20">
                   Questions You May Have
                 </h2>
               </Animated>
-              
+
               <div className="border-t border-primary/40">
                 {faqs.map((faq,i)=>{
                   const isOpen=openIndex===i;
@@ -74,7 +74,7 @@ export default function FAQ(){
                           </button>
                           <div
                             className={`overflow-hidden transition-all duration-500
-                                ${isOpen?"max-h-50 opacity-100":"max-h-0 opacity-0"}
+                                ${isOpen?"max-h-full opacity-100":"max-h-0 opacity-0"}
                               `}
                           >
                             <p className="pb-5 pr-0 sm:pr-[10%] text-[1.1rem] sm:text-[1.3rem] leading-[1.55] sm:leading-[1.7] text-primary">{faq.answer}</p>
