@@ -38,19 +38,12 @@ export default function About(){
             </Animated>
           </div>
 
-          <div className="flex justify-center w-full mx-auto order-first lg:order-0 pb-10 lg:p-0">
-            <div className="relative w-[42%] sm:w-[45%] lg:w-[54%]">
-              <Animated show={show} delay={120}>
-              <div className="aspect-[2.9/5] overflow-hidden rounded-t-full">
-                <img src="/about-main.jpg" alt="" className="w-full h-full object-cover object-center" />
-              </div>
-            </Animated>
-            <Animated show={show} delay={220}>
-              <div className="absolute -bottom-10 -right-10 sm:-bottom-10 sm:-right-10 lg:-bottom-15 lg:-right-12 w-40 sm:w-[60%] lg:w-[70%] aspect-square rounded-full overflow-hidden">
-                <img src="/about-circle.jpg" alt="" className="w-full h-full object-cover"/>
-              </div>
-            </Animated>
+          <div className="flex justify-center w-full pb-10">
+            <Animated show={show} delay={120}>
+            <div className="mx-auto w-[52%] sm:w-[55%] lg:w-[64%] aspect-[3.5/5] overflow-hidden rounded-xl">
+              <img src="/Dr. Maya Reynolds.png" alt="" className="w-full h-full object-cover object-center" />
             </div>
+          </Animated>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function ContactSocial() {
   const {ref,show}=useReveal(0);
   const images = [
     "/about-main.jpg",
-    "/specialty-3.jpg",
+    "/speciality-3.jpg",
     "/hero-2.jpg",
     "/hero-1.jpg",
   ];

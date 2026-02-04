@@ -12,7 +12,7 @@ export default function Secondary() {
       ref={ref}
       className="relative bg-muted sm:-mt-[12vh] md:-mt-[8vh] lg:-mt-[13vh]"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] lg:min-h-[85vh]">
+      <div className="grid grid-cols-1 lg:grid-cols-[1.02fr_0.98fr] lg:min-h-[85vh]">
         
         <div className="grid grid-rows-[1fr_auto] order-last lg:order-0">
 
@@ -49,7 +49,7 @@ export default function Secondary() {
         <Animated show={show} delay={180}>
           <div className="relative order-first lg:order-0 h-[32vh] sm:h-[45vh] lg:min-h-full overflow-hidden">
             <Image
-              src="/image2.jpg"
+              src="/hero-2.jpg"
               alt=""
               fill
               className="object-cover"

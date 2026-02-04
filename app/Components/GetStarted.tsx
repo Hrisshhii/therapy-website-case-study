@@ -1,4 +1,3 @@
-
 "use client";
 
 import Animated from "./hooks/Animated";
@@ -8,8 +7,8 @@ import { useReveal } from "./hooks/useReveal";
 export default function GetStarted(){
   const {ref,show}=useReveal(80);
   return (
-    <section className="bg-accent" ref={ref}>
-      <div className="min-h-125 md:min-h-150 lg:min-h-175 flex items-center justify-center px-4 sm:px-[3vw]">
+    <section className="bg-accent bg-[url('/ocean.jpg')] bg-cover bg-no-repeat" ref={ref}>
+      <div className="min-h-125 md:min-h-150 lg:min-h-175 flex items-center justify-center px-4 sm:px-[3vw] bg-black/55">
         <div className="text-center max-w-[92%] sm:max-w-237.5">
           <Animated show={show} delay={0}>
             <h2 className="font-medium text-[clamp(2.5rem,3vw,3.25rem)] text-secondary mb-10">

@@ -23,6 +23,7 @@ export default function Tertiary() {
                 className="object-cover"
                 priority
               />
+              <div className="absolute inset-0 bg-black/8"></div>
             </div>
           </Animated>
         

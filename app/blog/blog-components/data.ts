@@ -2,7 +2,7 @@ export const posts = [
   {
     slug: "blog-post-one",
     title: "When Anxiety Doesn’t Look Like Anxiety",
-    image:"/hero-2.jpg",
+    image:"/blog-1.jpg",
     date: "Jan 1, 2026",
     content: [
       "Many people imagine anxiety as something obvious racing thoughts, panic attacks or constant worry. Yet for many high-functioning adults, anxiety can be far quieter. It often hides beneath competence and responsibility, showing up as perfectionism, over-preparing, difficulty resting, or a persistent sense that something could go wrong.",
@@ -16,7 +16,7 @@ export const posts = [
   {
     slug: "blog-post-two",
     title: "Understanding Burnout Before It Consumes You",
-    image:"/hero-3.jpg",
+    image:"/blog-2.jpg",
     date: "Dec 2, 2025",
     content: [
       "Burnout rarely happens overnight. More often, it develops gradually — the quiet accumulation of prolonged stress, high expectations, and the habit of pushing forward despite mounting exhaustion.",
@@ -46,7 +46,7 @@ export const posts = [
   {
     slug: "blog-post-four",
     title: "Learning to Feel Safe Again",
-    image:"/about-main.jpg",
+    image:"/blog-4.jpg",
     date: "Mar 31, 2025",
     content: [
       "A sense of safety is foundational to emotional wellbeing. When we feel safe, the nervous system can settle, relationships feel more accessible, and the future appears less threatening.",

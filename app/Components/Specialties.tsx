@@ -7,19 +7,19 @@ const specialties = [
     title: "Anxiety & Chronic Stress",
     text:
       "Persistent worry, racing thoughts and emotional tension can make daily life feel exhausting; even when everything appears “fine” on the outside. Together, we work to understand the patterns driving your anxiety while building practical tools to help you feel more grounded, present and in control.",
-    image: "/specialty-1.jpg",
+    image: "/speciality-1.jpg",
   },
   {
     title: "Trauma & Lingering Past Experiences",
     text:
       "Unresolved experiences can quietly shape how you move through the world influencing relationships, confidence and your sense of safety. Using carefully paced, evidence-based approaches therapy becomes a space to process what you've carried and support lasting emotional healing.",
-    image: "/specialty-2.jpg",
+    image: "/speciality-2.png",
   },
   {
     title: "Burnout & High Internal Pressure",
     text:
       "Many high-achieving adults push through stress for years before realizing how disconnected they've become from themselves. Therapy offers a place to slow down, reconnect and develop more sustainable ways of living and working without sacrificing the ambition that matters to you.",
-    image: "/specialty-3.jpg",
+    image: "/speciality-3.jpg",
   },
 ];
 

@@ -33,7 +33,7 @@ export const searchData: SearchItem[] = [
   {
     title: "When Anxiety Doesn’t Look Like Anxiety",
     excerpt: "Explore the quieter forms of anxiety that often go unnoticed — including perfectionism, overthinking, and chronic tension.",
-    keywords:["anxiety","overthinking","tension"],
+    keywords:["anxiety","overthinking","tension","blog"],
     href: "/blog/blog-post-one",
     image:"/hero-2.jpg",
     type: "blog",
@@ -41,7 +41,7 @@ export const searchData: SearchItem[] = [
   {
     title: "Understanding Burnout Before It Consumes You",
     excerpt: "Learn to recognize the early signs of burnout and how therapy can help restore balance.",
-    keywords:["burnout", "stress", "work stress", "exhaustion"],
+    keywords:["burnout", "stress", "work stress", "exhaustion","blog"],
     href: "/blog/blog-post-two",
     image:"/hero-3.jpg",
     type: "blog",
@@ -49,7 +49,7 @@ export const searchData: SearchItem[] = [
   {
     title: "When Functioning Isn’t the Same as Thriving",
     excerpt: "You may be managing life successfully on the outside while feeling depleted within — here’s why that matters.",
-    keywords:["work stress","exhaustion"],
+    keywords:["work stress","exhaustion","blog"],
     href: "/blog/blog-post-three",
     image: "/about-circle.jpg",
     type: "blog",
@@ -57,7 +57,7 @@ export const searchData: SearchItem[] = [
   {
     title: "Learning to Feel Safe Again",
     excerpt: "Understand how therapy supports nervous system regulation and helps rebuild a lasting sense of safety.",
-    keywords:["trauma","past","fear","safety"],
+    keywords:["trauma","past","fear","safety","blog"],
     href: "/blog/blog-post-four",
     image:"/about-main.jpg",
     type: "blog",

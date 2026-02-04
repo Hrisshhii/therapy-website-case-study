@@ -12,8 +12,8 @@ export default function Primary(){
         <div className="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] gap-12 sm:gap-16 lg:gap-20 items-center">
 
         <Animated show={show} delay={0}>
-          <div className="relative mx-auto w-[75%] sm:w-[65%] md:w-[55%] lg:w-full aspect-[2.8/4] overflow-hidden rounded-t-[999px]">
-            <img src="/hero.jpg" alt="" className="w-full h-full object-cover object-contain"/>
+          <div className="relative mx-auto w-[70%] sm:w-[60%] md:w-[55%] lg:w-[85%] aspect-[2.8/4] overflow-hidden rounded-t-[999px]">
+            <img src="/hero-1.jpg" alt="" className="w-full h-full object-cover object-contain"/>
           </div>
         </Animated>
 

@@ -3,7 +3,7 @@ import "./globals.css"
 import Header from "./Components/Header"
 
 export const metadata: Metadata = {
-  title: "Lilac Template",
+  title: "Dr. Maya Reynolds",
   description: "Therapy website template",
 }
 
