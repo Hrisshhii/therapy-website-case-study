@@ -56,7 +56,7 @@ export default function Tertiary() {
                     }}
                   >
                     <span className="mt-4 h-1 w-1 shrink-0 rounded-full bg-primary/90" />
-                    <span className="block">{item}</span>
+                    <span className="block"> {item}</span>
                   </li>
                 ))}
               </ul>
