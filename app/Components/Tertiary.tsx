@@ -48,7 +48,7 @@ export default function Tertiary() {
                   "Feeling outwardly capable but internally stretched thin",
                   "Carrying the weight of past experiences into your present life"
                 ].map((item,i)=>(
-                  <li key={i} className="flex gap-0.2 sm:gap-3 items-start transition-all duration-500 ease-out"
+                  <li key={i} className="flex gap-1 sm:gap-3 items-start transition-all duration-500 ease-out"
                     style={{
                       opacity: show? 1:0,
                       transform: show?"translateY(10px)":"translateY(12px)",

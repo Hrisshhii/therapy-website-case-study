@@ -35,7 +35,7 @@ export const searchData: SearchItem[] = [
     excerpt: "Explore the quieter forms of anxiety that often go unnoticed — including perfectionism, overthinking, and chronic tension.",
     keywords:["anxiety","overthinking","tension","blog"],
     href: "/blog/blog-post-one",
-    image:"/hero-2.jpg",
+    image:"/blog-1.jpg",
     type: "blog",
   },
   {
@@ -43,7 +43,7 @@ export const searchData: SearchItem[] = [
     excerpt: "Learn to recognize the early signs of burnout and how therapy can help restore balance.",
     keywords:["burnout", "stress", "work stress", "exhaustion","blog"],
     href: "/blog/blog-post-two",
-    image:"/hero-3.jpg",
+    image:"/blog-2.jpg",
     type: "blog",
   },
   {
@@ -51,7 +51,7 @@ export const searchData: SearchItem[] = [
     excerpt: "You may be managing life successfully on the outside while feeling depleted within — here’s why that matters.",
     keywords:["work stress","exhaustion","blog"],
     href: "/blog/blog-post-three",
-    image: "/about-circle.jpg",
+    image: "/blog-3.jpg",
     type: "blog",
   },
   {
@@ -59,7 +59,7 @@ export const searchData: SearchItem[] = [
     excerpt: "Understand how therapy supports nervous system regulation and helps rebuild a lasting sense of safety.",
     keywords:["trauma","past","fear","safety","blog"],
     href: "/blog/blog-post-four",
-    image:"/about-main.jpg",
+    image:"/blog-4.jpg",
     type: "blog",
   }
 ];

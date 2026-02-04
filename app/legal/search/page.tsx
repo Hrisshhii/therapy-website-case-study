@@ -32,7 +32,7 @@ function SearchContent() {
       (item) =>
         item.title.toLowerCase().includes(query.toLowerCase()) ||
         item.excerpt.toLowerCase().includes(query.toLowerCase()) ||
-        item.keywords?.some(k=>k.includes(query))
+        item.keywords?.some(k=>k.toLowerCase().includes(query.toLowerCase()))
     );
   }, [query, loading]);
 
@@ -79,12 +79,12 @@ function SearchContent() {
           <ul className="space-y-12 mt-8">
             {results.map((item, i) => (
               <Link key={i} href={item.href}>
-                <li className="border-b border-primary/60 py-8 flex gap-6">
+                <li className="border-b border-primary/60 py-8 flex flex-col sm:flex-row gap-4 sm:gap-6">
                   {item.type === "blog" && item.image && (
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="w-80 h-80 object-cover shrink-0"
+                      className="w-full h-48 sm:w-60 sm:h-60 lg:w-80 lg:h-80 object-cover shrink-0"
                     />
                   )}
 
