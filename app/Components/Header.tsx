@@ -16,18 +16,18 @@ function MenuToggle({
   return (
     <button
       onClick={onClick}
-      className="relative w-8 h-8 flex items-center justify-center"
+      className="relative w-8 h-8 flex items-center justify-center cursor-pointer"
     >
       <span className="sr-only">Toggle menu</span>
 
       <div className="relative w-6 h-4">
         <span
-          className={`absolute left-0 top-1/2 h-0.5 w-full bg-[#223614]
+          className={`absolute left-0 top-1/2 origin-center h-0.5 w-6 bg-primary
           transition-all duration-500 ease-in-out
           ${open ? "rotate-45" : "-translate-y-2"}`}
         />
         <span
-          className={`absolute left-0 top-1/2 h-0.5 w-full bg-[#223614]
+          className={`absolute left-0 top-1/2 origin-center h-0.5 w-6 bg-primary
           transition-all duration-500 ease-in-out
           ${open ? "-rotate-45" : "translate-y-2"}`}
         />
@@ -95,8 +95,7 @@ export default function Header() {
     return ()=>window.removeEventListener("resize",onResize);
   },[menuOpen]);
 
-  const headerBar =
-    "flex items-center justify-between px-6 py-2.5 md:py-1";
+  const headerBar ="flex items-center justify-between px-6 h-[64px]";
 
   return (
     <>
@@ -111,8 +110,8 @@ export default function Header() {
             </Link>
 
             <nav className="hidden md:flex gap-12 leading-tight text-primary text-[calc((1.2-1)*1.2vw+1rem)]">
-              <Link href="/blog" className={`${isBlog?"underline underline-offset-8":"hover:opacity-60"}`}>Blog</Link>
-              <Link href="/contact"className={`${isContact?"underline underline-offset-8":"hover:opacity-60"}`}>Contact</Link>
+              <Link href="/blog" className={`${isBlog?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"}`}>Blog</Link>
+              <Link href="/contact"className={`${isContact?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"}`}>Contact</Link>
             </nav>
             <div className="md:hidden">
               <MenuToggle open={menuOpen} onClick={() => setMenuOpen(!menuOpen)} />
@@ -128,8 +127,8 @@ export default function Header() {
       >
         <div
           ref={ref as React.RefObject<HTMLDivElement>}
-          className={`${headerBar} transition-all duration-700 py-3 ${
-            show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          className={`${headerBar} transition-all duration-700 ${
+            show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
           }`}
         >
           <div className="md:hidden">

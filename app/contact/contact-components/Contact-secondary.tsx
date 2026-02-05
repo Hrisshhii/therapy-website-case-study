@@ -14,7 +14,7 @@ export default function ContactSecondary(){
           </h2>
         </Animated>
         <Animated show={show} delay={220}>
-          <p className="m-6 max-w-220 font-normal text-[1.25rem] leading-normal text-center">
+          <p className="m-6 max-w-220 font-normal text-[1.12rem] sm:text-[1.25rem] leading-normal text-center">
             {`Taking the first step toward therapy can feel vulnerable.`}<br/>
             {`You're invited to schedule a complimentary 15-minute consultation to see if we're a good fit.`}
           </p>

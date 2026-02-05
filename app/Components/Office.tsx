@@ -16,10 +16,10 @@ export default function Office(){
                 A Calm Space for Healing
               </h2>
               <p className="body-md mb-6">
-                My <strong className="text-[1.4rem]">Santa Monica</strong> office is a quiet, private space intentionally designed to feel calm, grounding, and free from distraction. With natural light and a comfortable, uncluttered atmosphere, many clients share that they begin to feel more at ease the moment they arrive.
+                My <strong className="text-[1.32rem]">Santa Monica</strong> office is a quiet, private space intentionally designed to feel calm, grounding, and free from distraction. With natural light and a comfortable, uncluttered atmosphere, many clients share that they begin to feel more at ease the moment they arrive.
               </p>
               <p className="body-md">
-                I offer both in-person therapy and secure telehealth sessions for clients across <strong className="text-[1.4rem]">California</strong>, allowing you to choose the format that best supports your comfort and needs.
+                I offer both in-person therapy and secure telehealth sessions for clients across <strong className="text-[1.32rem]">California</strong>, allowing you to choose the format that best supports your comfort and needs.
               </p>
             </div>
           </Animated>

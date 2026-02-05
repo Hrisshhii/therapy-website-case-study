@@ -24,7 +24,7 @@ export default function ContactMap(){
                 Santa Monica, CA 90401
               </a>
               <h3 className="font-medium mb-4 text-[1.6rem]">Hours</h3>
-              <p className="body-md leading-[1.7]">
+              <p className="body-md">
                 Monday - Friday<br/>
                 10:00 AM - 6:00 PM
               </p>

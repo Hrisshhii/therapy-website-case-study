@@ -20,7 +20,7 @@ export default function Subscribe(){
   };
 
   return (
-    <section className="bg-accent py-40" ref={ref}>
+    <section className="bg-accent py-20 sm:py-40" ref={ref}>
       <div className="mx-auto max-w-450 section-x">
         <div className="border border-white/70 px-8 sm:px-6 py-15 sm:py-13 text-center max-w-337.5 mx-auto transition-all duration-500">
           {status==="success" && (
