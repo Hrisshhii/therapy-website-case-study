@@ -37,8 +37,8 @@ function SearchContent() {
   }, [query, loading]);
 
   return (
-    <section className="bg-accent-soft py-24">
-      <div className="border-b border-primary p-10">
+    <section className="bg-accent-soft">
+      <div className="border-b border-primary p-10 py-24">
         <div className="mx-auto px-6 max-w-437.5">
           <div className="relative mb-12  mx-auto mt-30">
             <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl opacity-60">

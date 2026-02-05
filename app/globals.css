@@ -168,7 +168,7 @@ body {
     @apply px-[4vw] sm:px-[3.75vw] lg:px-[2vw] pt-24 pb-32;
   }
   .section-x {
-    @apply px-[3.75vw] lg:pl-[2vw] lg:pr-[3.75vw];
+    @apply px-[2.5vw] sm:px-[2vw] lg:px-[2.5vw];
   }
   .btn-primary {
     @apply inline-flex items-center justify-center

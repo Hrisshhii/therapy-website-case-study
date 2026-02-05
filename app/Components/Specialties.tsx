@@ -34,9 +34,9 @@ export default function Specialties(){
           <p className="text-[1.02rem] text-primary/90">Evidence-based therapy for anxiety, trauma, and burnout in <strong className="text-[1.1rem] text-primary">Santa Monica</strong> and across California.</p>
         </div>
         
-        <div className=" grid grid-cols-1 gap-6 sm:gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 sm:gap-15 sm:grid-cols-2 lg:grid-cols-3">
           {specialties.map((item)=>(
-            <div key={item.title} className=" flex w-full h-full flex-col border border-primary bg-muted p-5 transition-transform duration-300 hover:-translate-y-1.5">
+            <div key={item.title} className=" flex w-full flex-col border border-primary bg-muted p-4 transition-transform duration-300 hover:-translate-y-1.5">
               <Animated show={show} delay={120}>
                 <h3 className="px-1 py-3 mt-0 body-md font-medium text-primary">{item.title}</h3>
               </Animated>

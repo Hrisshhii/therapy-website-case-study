@@ -14,13 +14,13 @@ export default function ContactPrimary() {
           <div className="flex flex-col items-center">
             <Animated show={show} delay={120}>
               <h1 className="font-medium sm:text-left text-primary leading-[1.12] text-[clamp(2.2rem,8vw,3rem)] sm:text-[calc(3vw+1rem)]">
-                A Calm Space Begins With One Conversation
+                Start With a Conversation
               </h1>
             </Animated>
 
-            <div className="mt-8 text-center sm:text-left sm:mt-25 text-primary text-[clamp(1rem,1.35vw,1.45rem)]">
+            <div className="mt-8 text-center sm:text-left sm:mt-25 text-primary/90 text-[clamp(1rem,1.35vw,1.45rem)]">
               <p className="mb-2">{`Taking the first step toward therapy can feel vulnerable, but you don't have to do it alone.`}</p>
-              <p>{`I invite you to reach out with any questions or to schedule a complimentary 15-minute consultation to see if we're a good fit.`}</p>
+              <p>I invite you to reach out with any questions or to schedule a <strong className="text-[clamp(1.2rem,1.45vw,1.55rem)] sm:text-[1.3rem] text-primary">complimentary 15-minute consultation</strong> to see if we&apos;re a good fit.</p>
             </div>
             
             <div className="relative mt-14 lg:mt-20 mx-auto lg:mx-0">
@@ -57,6 +57,8 @@ export default function ContactPrimary() {
                   <textarea rows={4} placeholder="How can I support you?" className="p-4 rounded-md bg-secondary text-primary outline-none resize-none" />
                     <button type="submit" className="btn-light mt-6 ">Request a Consultation</button>
                     <p className="text-sm opacity-80 mt-1 text-center">Your information is private and handled with care.</p>
+                    <a href="mailto:email@example.com" className="underline block text-center">drmayareynolds@example.com </a>
+                    <a href="tel:5555555555" className="underline block text-center">(555) 555-5555</a>
                 </form>
               </Animated>
             </div>

@@ -10,7 +10,7 @@ export default function BlogPosts(){
   return (
     <section className="bg-muted text-primary py-32" ref={ref}>
       <div className="mx-auto max-w-450 section-x">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-23 gap-y-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-25 gap-y-20">
           {posts.map((post)=>(
             <article key={post.slug} className="group">
               <Animated show={show} delay={120} >

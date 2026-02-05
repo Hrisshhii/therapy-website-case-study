@@ -109,7 +109,7 @@ export default function Header() {
               Dr. Maya Reynolds, PsyD
             </Link>
 
-            <nav className="hidden md:flex gap-12 leading-tight text-primary text-[calc((1.2-1)*1.2vw+1rem)]">
+            <nav className="hidden md:flex gap-12 leading-tight text-primary text-[calc((1.35-1)*1.2vw+1rem)]">
               <Link href="/blog" className={`${isBlog?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"}`}>Blog</Link>
               <Link href="/contact"className={`${isContact?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"}`}>Contact</Link>
             </nav>
@@ -135,7 +135,7 @@ export default function Header() {
             <MenuToggle open={menuOpen} onClick={() => setMenuOpen(false)} />
           </div>
 
-          <Link href="/" onClick={() => setMenuOpen(false)} className="font-medium text-[calc((2-1)*1.2vw+1rem)] text-primary">
+          <Link href="/" onClick={() => setMenuOpen(false)} className="font-medium text-[calc((2.1-1)*1.2vw+1rem)] text-primary">
             Dr. Maya Reynolds, PsyD
           </Link>
         </div>
