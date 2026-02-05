@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function TermsConditions(){
   return (
     <section className="bg-secondary text-primary">
-      <div className="mx-auto max-w-450 section-x body-md text-primary py-32">
+      <div className="mx-auto w-full section-x body-md text-primary py-32 border-b-2 border-primary">
         <p>By accessing this website, you agree to use it for informational purposes only.</p>
         <ul className="list-disc pl-6 my-4">
           <li className="ml-10">The content provided is not intended to replace professional psychological, medical, or legal advice.</li>

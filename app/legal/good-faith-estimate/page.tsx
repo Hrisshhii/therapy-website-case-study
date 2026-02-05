@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function GoodFaithEstimate(){
   return (
     <section className="bg-secondary text-primary">
-      <div className="mx-auto max-w-450 section-x body-md text-primary py-32">
+      <div className="mx-auto max-full section-x body-md text-primary py-32 border-b-2 border-primary">
         <p>Under federal law, healthcare providers are required to provide clients who do not have insurance or who are not using insurance with an estimate of expected charges for services.</p>
         <ul className="list-disc pl-6 my-4">
           <li className="ml-10">You have the right to receive a “Good Faith Estimate” explaining the anticipated cost of therapy services.</li>
