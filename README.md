@@ -14,7 +14,7 @@ Beyond visual accuracy, the interface was intentionally structured to deliver a 
 🔗 https://therapy-case-study.netlify.app/
 
 **Alternate Deployment:**  
-🔗 therapy-ui-case-study.vercel.app/
+🔗 https://therapy-ui-case-study.vercel.app/
 
 Both deployments reflect the same production build.
 
