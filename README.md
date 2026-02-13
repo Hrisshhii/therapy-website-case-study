@@ -11,10 +11,10 @@ Beyond visual accuracy, the interface was intentionally structured to deliver a 
 ## 🌐 Live Demo
 
 **Primary Deployment:**  
-🔗 https://growmytherapyhrishi.netlify.app/
+🔗 https://therapy-case-study.netlify.app/
 
 **Alternate Deployment:**  
-🔗 https://growmytherapy-assignment.vercel.app/
+🔗 therapy-ui-case-study.vercel.app/
 
 Both deployments reflect the same production build.
 
